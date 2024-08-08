@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Colnago</title>
         <meta name="description" content="write-hub" />
-        <link rel="icon" href="../public/Google.svg" />
+        <link rel="icon" href="../public/Google.ico" />
       </Head>
 
       <main className={styles.main}>
