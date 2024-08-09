@@ -10,9 +10,6 @@ module.exports = (req, res) => {
   //   ) {
   //     target = "http://106.15.2.32:6969";
   //   }
-      if (req.url.startsWith("/play"){
-      target = "https://play.google.com/"
-      }
   createProxyMiddleware({
     target,
     changeOrigin: true,
